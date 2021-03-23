@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+  margin-left: 0px;
+}
+
+.nav-links {
+  float: right;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#sign_in {
+  background-color: #467cd3;
+  border-radius: 2px;
+  float: right;
+  margin-right: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#sign_in a {
+  color: #fff;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.google-image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 8rem;
+}
+
+.form-search {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 8.5rem;
+}
+
+#form-search {
+  width: 40rem;
+  margin-bottom: 5px;
+  padding: 0.7em;
+  border-radius: 40px;
+  border: 1px solid #dfe1e5;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 12.5em;
+}
+button {
+  background-color: #f2f2f2;
+  border: 1px solid #a6a7a8;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
+  margin-right: 0.3em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #faf5f5;
+  border-top: 2px solid #eff0f3;
+  margin: 0px;
+  font-weight: 100;
+}
+
+footer a {
+  color: #909499;
+}
+
+.footer-left,
+#Advertising,
+#Business,
+#About {
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.footer-right,
+#Privacy,
+#Terms,
+#Settings {
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
